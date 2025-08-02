@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OSINT Demo: Hidden Flag</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+      background: #f9f9f9;
+      color: #333;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+    #flag {
+      display: none;
+      margin-top: 2rem;
+      color: green;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Our Company</h1>
+    <p>Everything looks normal here. 👀</p>
+
+    <!-- Hidden flag -->
+    <div id="flag">
+      🏁 FLAG{inspector_tool_revealed}
+    </div>
+  </div>
+</body>
+</html>
