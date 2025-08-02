@@ -13,9 +13,7 @@ This project is designed for OSINT investigators, bug bounty hunters, and cybers
 
 ## 🔥 Live Demo
 
-👉 [Click here to open the live demo](https://yourusername.github.io/hidden-flag-demo/)
-
-> ⚠️ Replace `yourusername` with your GitHub username after publishing.
+👉 [Click here to open the live demo](https://ammartiger.github.io/hidden-flag-demo/)
 
 ## 🛠 How to Use
 
